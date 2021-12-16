@@ -1,0 +1,59 @@
+{
+  "name": "avg",
+  "private": true,
+  "description": "Укладка тротуарной плитки и бордюра от производителя в Москве и Московской области под ключ с гарантией и по ГОСТ. Доставка сыпучих материалов",
+  "version": "0.1.0",
+  "author": "Bigway <bigway8.com>",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.1.0",
+    "gatsby-plugin-gatsby-cloud": "^4.1.0",
+    "gatsby-plugin-image": "^2.1.0",
+    "gatsby-plugin-manifest": "^4.1.0",
+    "gatsby-plugin-mdx": "^3.4.0",
+    "gatsby-plugin-offline": "^5.1.0",
+    "gatsby-plugin-react-helmet": "^5.1.0",
+    "gatsby-plugin-robots-txt": "^1.6.14",
+    "gatsby-plugin-sass": "^5.2.0",
+    "gatsby-plugin-sharp": "^4.1.0",
+    "gatsby-plugin-sitemap": "^5.4.0",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-remark": "^5.1.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "gh-pages": "^3.2.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.1.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.0",
+    "sass": "^1.44.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "keywords": [
+    "тротуарная плитка, укладка тротуарной плитки, брусчатка, укладка брусчатки, бордюр, установка бордюра, укладка тротуарной плитки Солнечногорский район, укладка тротуарной плитки Истринский район, укладка тротуарной плитки Клинский район, укладка тротуарной плитки Одинцовский район, доставка сыпучих материалов"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glebstroy/glebstroy.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/glebstroy/glebstroy.github.io/issues"
+  }
+}

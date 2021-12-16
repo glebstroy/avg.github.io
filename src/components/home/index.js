@@ -1,0 +1,6 @@
+export { default as WelcomeSection } from "./WelcomeSection"
+export { default as HowWeWorkSection } from "./HowWeWorkSection"
+export { default as ServicesSection } from "./ServicesSection"
+export { default as ProductsSection } from "./ProductsSection"
+export { default as PortfolioSection } from "./PortfolioSection"
+export { default as AboutSection } from "./AboutSection"

@@ -1,0 +1,38 @@
+.protfolio-image {
+  max-height: 450px;
+  height: 450px;
+  margin-bottom: 120px;
+  background-image: url("../../images/garden.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.protfolio {
+  margin: 60px auto;
+}
+.portfolio-galery {
+  column-count: 4;
+  > div {
+    width: 105%;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+}
+@media (max-width: 920px) {
+  .portfolio-galery {
+    column-count: 3;
+  }
+}
+@media (max-width: 720px) {
+  .portfolio-galery {
+    column-count: 2;
+  }
+}
+@media (max-width: 400px) {
+  .portfolio-galery {
+    column-count: 1;
+    > div {
+      width: 100%;
+    }
+  }
+}

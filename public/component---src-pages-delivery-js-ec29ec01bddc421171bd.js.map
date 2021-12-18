@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-delivery-js-ec29ec01bddc421171bd.js","mappings":"oHAMA,UAJA,WACE,OAAO","sources":["webpack://avg/./src/pages/delivery.js"],"sourcesContent":["import React from \"react\"\n\nfunction Delivery() {\n  return <div>delivery</div>\n}\n\nexport default Delivery\n"],"names":[],"sourceRoot":""}

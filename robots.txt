@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://glebstroy.github.io/sitemap.xml
-Host: https://glebstroy.github.io

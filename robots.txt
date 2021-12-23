@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://glebstroy.github.io/sitemap.xml
-Host: https://glebstroy.github.io
+Sitemap: https://avg-plitka.ru/sitemap/sitemap-index.xml
+Host: https://avg-plitka.ru
